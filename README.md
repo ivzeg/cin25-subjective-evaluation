@@ -10,7 +10,7 @@ Results_raw_all.csv: The raw subjective evaluation log. The zip file which conta
 Expected columns (no header): scene_id, image_path, method, score, user_id.
 
 ### 2. Objective Metric Data
-The script expects pre-computed objective IQA metrics. For the paper, metrics were calculated using pyiqa framework: [IQA-PyTorch]([url](https://github.com/chaofengc/iqa-pytorch)).
+The script expects pre-computed objective IQA metrics. For the paper, metrics were calculated using pyiqa framework: [IQA-PyTorch](https://github.com/chaofengc/iqa-pytorch).
 
 cin25_psnr_rgb.csv
 
