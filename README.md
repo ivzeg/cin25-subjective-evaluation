@@ -5,12 +5,12 @@ The repository contains the official data processing and statistical analysis pi
 Before running the script, ensure the file paths in the script point to your local data.
 
 ### 1. Subjective Data
-Results_raw_all.csv: The raw subjective evaluation log. The zip file which contains CIN25 images, raw subjective data and MOS can be found at: [https://www.vcl.fer.hr/quality/cin25.html](url).
+Results_raw_all.csv: The raw subjective evaluation log. The zip file which contains CIN25 images, raw subjective data and MOS can be found at the webpage of our laboratory: [https://www.vcl.fer.hr/quality/cin25.html](https://www.vcl.fer.hr/quality/cin25.html).
 
 Expected columns (no header): scene_id, image_path, method, score, user_id.
 
 ### 2. Objective Metric Data
-The script expects pre-computed objective IQA metrics. For the paper, metrics were calculated using pyiqa framework: [https://github.com/chaofengc/iqa-pytorch](url).
+The script expects pre-computed objective IQA metrics. For the paper, metrics were calculated using pyiqa framework: [IQA-PyTorch]([url](https://github.com/chaofengc/iqa-pytorch)).
 
 cin25_psnr_rgb.csv
 
